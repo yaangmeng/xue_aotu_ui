@@ -1,0 +1,45 @@
+
+
+# 初始化本地仓库
+git init
+
+# 把代码添加到仓库
+git add .
+
+# 封板 提交 保存
+git commit -m "备注"
+
+# 上传代码
+git push
+
+# 更新本地代码
+git pull
+
+
+# 分支管理
+# 查看当前仓库所有分支
+git branch
+
+# 创建分支
+git branch 分支名 创建分支
+git checkout -b 分支名 # git branch 分支名   git checkout 分支名
+
+# 切换分支
+git checkout 分支名 # 切换分支
+
+# 删除分支
+git branch -d 分支名 # 删除分支
+
+# 合并分支
+git merge 分支名 # 把指定分支的代码合并到当前分支
+
+
+
+
+
+
+
+
+
+
+
